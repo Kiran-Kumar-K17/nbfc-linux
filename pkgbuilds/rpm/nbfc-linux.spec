@@ -4,7 +4,7 @@
 %global debug_package %{nil}
 
 Name:           nbfc-linux
-Version:        0.3.17
+Version:        0.5.4
 Release:        1%{?dist}
 Summary:        NoteBook FanControl
 
@@ -51,4 +51,5 @@ rm -rf %{buildroot}/bin
 %{_bindir}/*
 %{_datadir}/*
 /etc/nbfc/
+/usr/lib/nbfc/
 %{_usr}/lib/systemd/system/nbfc_service.service
